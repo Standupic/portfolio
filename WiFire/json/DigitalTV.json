@@ -1,0 +1,1068 @@
+[
+  {
+    "MainPackage": [
+      {
+        "index": 0,
+        "logo": "img/DigitalTV/main/70.svg",
+        "name": "Wifire TV 70+",
+        "price": 349,
+        "countKanals": 78,
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "logo": "img/DigitalTV/main/130.svg",
+        "name": "Wifire TV 130+",
+        "price": 349,
+        "countKanals": 143,
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "logo": "img/DigitalTV/main/150.svg",
+        "name": "Wifire TV 150+",
+        "price": 349,
+        "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "countKanals": 167,
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "logo": "img/DigitalTV/main/180.svg",
+        "name": "Wifire TV 180+",
+        "price": 349,
+        "countKanals": 200,
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "DopPackage": [
+      {
+        "index": 4,
+        "logo": "img/DigitalTV/dop/poznavatelniy.svg",
+        "pakets": true,
+        "name": "Познавательный",
+        "price": 349,
+        "countKanals": "8",
+         "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "logo": "img/DigitalTV/dop/HD.svg",
+        "name": "HD",
+        "price": 349,
+        "countKanals": "14",
+        "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "logo": "img/DigitalTV/dop/chempion.svg",
+        "name": "Чемпион",
+        "price": 349,
+        "countKanals": "10",
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "logo": "img/DigitalTV/dop/amedia_hd.svg",
+        "name": "Amedia HD",
+        "price": 169,
+        "countKanals": "2",
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "logo": "img/DigitalTV/dop/nash_futbol.svg",
+        "name": "Наш футбол",
+        "price": 169,
+        "countKanals": "13",
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "logo": "img/DigitalTV/dop/dogd.svg",
+        "name": "Дождь",
+        "price": 240,
+        "countKanals": "1",
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "logo": "img/DigitalTV/dop/vzrosliy.svg",
+        "name": "Взрослый",
+        "price": 169,
+        "countKanals": "4",
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+       {
+        "index": 11,
+        "logo": "img/DigitalTV/dop/plus_futbol.svg",
+        "name": "Плюс Футбол",
+        "price": 380,
+        "countKanals": "3",
+        "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "logo": "img/DigitalTV/dop/plus_futbol.svg",
+        "name": "Интернациональный",
+        "price": 380,
+        "countKanals": "3",
+        "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ]
+      },
+      {
+       "index": 13,
+        "logo": "img/DigitalTV/dop/plus_futbol.svg",
+        "name": "Наш футбол SD/HD",
+        "price": 380,
+        "countKanals": "6",
+        "sale": [
+          {
+            "date": "Акция до 11 августа",
+            "url": "#"
+          }
+        ],
+        "kanals": [
+          {
+            "name": "Эфирные",
+            "type": "essential",
+            "active": "active",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "essential"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "essential"
+              }
+            ]
+          },
+          {
+            "name": "Позновательный",
+            "type": "cognitive",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "cognitive"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "cognitive"
+              }
+            ]
+          },
+          {
+            "name": "Детям",
+            "type": "kids",
+            "img": [
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Первый",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Второй",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Третий",
+                "type": "kids"
+              },
+              {
+                "url": "img/DigitalTV/kanals/perviy.png",
+                "name": "Четвертый",
+                "type": "kids"
+              }
+            ]
+          }
+        ] 
+      }
+    ]
+  }
+
+]

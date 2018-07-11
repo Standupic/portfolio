@@ -3,6 +3,7 @@ $(".protfolio_cont").each(function(i){
 $(this).find("a").attr("href","#work_"+i);
 });
 
+
 function testinput(re, str){
  	  if (re.test(str))
       	return true;
@@ -32,20 +33,62 @@ if(!Modernizr.input.required){
 	});
 }
 
-var project = {
-	project: [
-		{ name: "Life Control",
-		  type: "",
-		  technology: [{name:"JavaScript"},{name: "CSS"}],
-		  img: "",
-		  description: "Hello from Handlebars" }
-	]
-}
+var project = [
+	{
+		link: "./WiFire/index.html",
+		img: "./WiFire/img/template/glavnaya_v1.jpg"	
+	},
+	{
+		link: "./WiFire/index.html",
+		img: "./WiFire/img/template/glavnaya_di_v1.jpg"	
+	},
+	{
+		link: "./WiFire/index.html",
+		img: "./WiFire/img/template/menu_mobile.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/digital_desktop.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/cifrovoe_tv_v1.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/menu_new1.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/menu_new2.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/menu_new3.jpg"
+	},
+	{
+		link: "./WiFire/digital_pakets.html",
+		img: "./WiFire/img/template/sale_iphone.jpg"
+	}
+]
 
-var selector = $("#template").html();
-var template = Handlebars.compile(selector);
-$("#portfolio_item").append(template(project))
+var html = project.map(function(item){
+	return(
+		`<div class="grid-item"><a href="./WiFire/index.html"><img src="${item.img}" alt=""></a></div>`
+		)
+})
 
+$(".grid-sizer").after(html.join(""))
+
+var $grid = $('.grid').masonry({
+	  itemSelector: '.grid-item',
+	  columnWidth: '.grid-sizer',
+	  percentPosition: true
+	});
+
+$grid.imagesLoaded().progress(function(){
+	$grid.masonry()
+})
 
 $(".hidden").each(function(i){
 $(this).find(".item_descrip").attr("id","work_"+i);
@@ -66,6 +109,7 @@ $(".year").animated("fadeInDown","fadeOutUp");
 $(".animate_company_left").animated("fadeInLeft","fadeOutDown");
 $(".animate_company_right").animated("fadeInRight","fadeOutDown");
 //$(".person").animated("fadeInRight","fadeOutRight");
+
 $(".main_head, .menu_item").click(function() {
   $(".sandwich").toggleClass("active");
   });

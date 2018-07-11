@@ -108,14 +108,21 @@ ul.person {
 
 .loader {
   background: none repeat scroll 0 0 #ffffff;
-  bottom: 0;
+  /*bottom: 0;*/
   height: 100%;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
+  /*left: 0;*/
+  /*position: fixed;*/
+  /*right: 0;*/
+  /*top: 0;*/
   width: 100%;
-  z-index: 9999; }
+  z-index: 9999;
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-pack: center; 
+  -ms-flex-pack: center; 
+          justify-content: center;
+  }
 
 .loader_inner {
   background-image: url("../img/preloader.gif");
@@ -237,15 +244,15 @@ ul.person {
 
 .sandwich.active .sw-topper {
   top: 6px;
-  -webkit-transform: rotate(140deg);
-      -ms-transform: rotate(140deg);
-          transform: rotate(140deg); }
+  -webkit-transform: rotate(128deg);
+      -ms-transform: rotate(128deg);
+          transform: rotate(128deg); }
 
 .sandwich.active .sw-bottom {
   top: 3px;
-  -webkit-transform: rotate(-140deg);
-      -ms-transform: rotate(-140deg);
-          transform: rotate(-140deg); }
+  -webkit-transform: rotate(-128deg);
+      -ms-transform: rotate(-128deg);
+          transform: rotate(-128deg); }
 
 .sandwich.active .sw-footer {
   opacity: 0;

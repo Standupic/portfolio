@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Заголовок</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/_digital_tv.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- <link rel="stylesheet" href="css/popUp.css"> -->
+	<style>
+		
+		@media all and (min-width: 300px) and (max-width: 1024px){
+			.wrap{
+				padding-top: 55px;
+			}
+			.wrap_connect{
+				display: none
+			}
+		}
+		@media all and (min-width: 1025px){
+			.wrap{
+				padding-top: 135px;
+			}
+		}
+		.ripple{
+		  position: relative;
+		  overflow:hidden;
+		}
+
+		.ripple-effect{
+		  display:inline-block;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  height:0;
+		  width:0;
+		  border:2px solid rgba(255,255,255,0.5);
+		  border-radius: 5000px;
+		  animation:ripple .5s ease forwards;
+		  z-index:1;
+		}
+		@keyframes ripple{
+		  0%{
+		    transform:scale(0);
+		  }
+		  100%{
+		    transform:scale(100);
+		  }
+		}
+	</style>
+</head>
+ <body>
+	<div class="wrap_menu_header">
+		<div class="wrap_header_top_menu">
+			<div class="container">
+				<div class="menu_header">
+					<div class="header_top mb_hidden tb_hidden">
+						<div class="city">
+							<a href="#">Москва</a>
+						</div>
+						<div class="panel_right mb_hidden">
+							<a href="#" class="internet_shop">Интернет магазин</a>
+							<a href="#" class="refill">Пополнения счета</a>
+							<a href="#" class="personal_account">Личный кабинет</a>
+						</div>
+						<div class="panel_phone_tablet ds_hidden mb_hidden">
+							<div class="wrap_panel_phone">
+								<p>Подключение:<br/><span>8 (499) 553 94 56</span></p>
+								<p>Служба поддержки:<br/><span>8 (499) 553 94 56</span></p>
+							</div>	
+						</div>
+						<div class="panel_right_mobile ds_hidden tb_hidden">
+							<div class="wrap_panel_mobile">
+								<a href="#"><img src="img/header/pay.svg" alt=""></a>
+								<a href="#"><img src="img/header/lk.svg" class="lk_mobile" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--end container-->
+		</div><!--end wrap_header_top_menu-->
+		<div class="wrap_header_bottom_menu">
+			<div class="container">
+				<div class="header_bottom_menu ">
+					<div class="wrap_bottom_menu mb_hidden  tb_hidden">
+						<div class="logo">
+							<img src="img/header/logo.svg" alt="">
+						</div>
+						<div class="wrap_menu">
+							<div class="menu">
+							<a href="#">Акции</a>
+							<a href="#">Пакеты <br/> услуг</a>
+							<a href="#">Цифровое <br/> телевидение</a>
+							<a href="#">Домашний <br/> интернет</a>
+							<a href="#">Мобильный <br/> интернет</a>
+							<a href="#">Дополнительные <br/> услуги</a>
+							</div>
+						</div>
+						<div class="connect">
+							<button class="ripple">
+								Подключить
+							</button>
+						</div>
+					</div>
+					<div class="wrap_panel_right_mobile ds_hidden">
+						<div class="panel_right_mobile">
+
+							<div class="wrap_burger">
+								<a href="#" class="burger buttonMenu" data-type="main">
+									<img src="img/ico_menu.svg" alt="">
+								</a>
+							</div>
+							<div class="logo">
+								<a href="#"><img src="img/logo_wifire_mobile.svg" alt=""></a>
+							</div>
+							<div class="phone buttonMenu" data-type="call_back">
+								<img src="img/phone.svg" alt="">
+							</div>
+
+						</div><!--panel_right_mobile-->
+
+					</div>
+				</div><!--end header_bottom_menu-->
+			</div><!--end container-->
+		</div><!--end wrap_header_bottom_menu-->
+		<div class="wrap_connect">
+			<div class="container">
+				<div class="connect_ds">
+					<div class="item">
+						<form action="">
+							<label for="phone">Обратный звонок</label>
+							<input type="text" placeholder="Ваш телефон">
+							<button>Жду звонка</button>
+						</form>
+					</div>
+					<div class="item">
+						<li class="menu_item">
+							<p>Подключение:</p>
+							<p><a href="tel:84995539483">8 (499) 553-94-83</a></p>
+						</li>
+						<li class="menu_item">
+							<p>Служба поддержки:</p>
+							<p><a href="tel:84959802400">8 (495) 980-24-00</a></p>
+						</li>
+					</div>
+				</div>
+				
+			</div>
+			<div class="line">
+				<span>Скрыть</span>
+			</div>
+		</div>		
+	</div><!--end wrap-menu-header-->
+	
+	<div id="mb_menu" class="mb_menu">
+		<div class="mb_menu_breadcrums">
+			<!-- <span class="back">Назад</span> -->
+				<button class="action"><em class="close">Закрыть</em><em class="icon icon_cross"></em></button>
+		</div>
+		<div class="wrap_mb_menu">
+			<ul data-menu="main" class="main menu_level">
+				<li class="menu_item category">
+					<a href="#">Цифровое телевидение</a>
+				</li>
+				<li class="menu_item category">
+					<a href="#">Домашний интернет</a>
+				</li>
+				<li class="menu_item category">
+					<a href="#">Мобильный интернет</a>
+				</li>
+				<li class="menu_item category">
+					<a href="#">Пакеты услуг</a>
+				</li>
+				<li class="menu_item category">
+					<a href="#">Дополнительные услуги</a>
+				</li>
+				<li class="menu_item"><a href="#" class="addit city" data-submenu="submenu-1">Москва</a>
+				<!-- <img class="next" src="img/menu/next.svg" alt=""> -->
+				</li>
+				<li class="menu_item"><a href="#" class="addit personal_account">Личный кабинет</a></li>
+				<li class="menu_item"><a href="#" class="addit pay">Пополнения счета</a></li>
+			</ul>
+			<ul data-menu="call_back" class="call_back menu_level">
+				<li class="menu_item">
+					<p>Подключение:</p>
+					<p><a href="tel:84995539483">8 (499) 553-94-83</a></p>
+				</li>
+				<li class="menu_item">
+					<p>Служба поддержки:</p>
+					<p><a href="tel:84959802400">8 (495) 980-24-00</a></p>
+				</li>
+				<li class="menu_item">
+					<h3>Обратный звонок</h3>
+					<form action="#">
+						<input type="text">
+						<button type="submit">Жду звонка</button>
+					</form>
+				</li>
+			</ul>
+			<ul data-menu="submenu-1" class="submenu menu_level submenu-1">
+				<p class="test">Начните вводить назначение:</p>
+				<input type="text" class="findCities">
+				<ul class="cities">
+				</ul>
+			</ul>
+		</div>
+	</div>
+	<div class="wrap" style="">
+	 	 <div class="wrap_banner">
+			<div class="container">
+				<div class="banner">
+					<!-- <iframe src="banner.html" width="100%" height="50vh"></iframe> -->
+				</div>
+			</div>
+		</div>
+		<div class="wrap_pakets">
+			<div class="container">
+				<h2>Выберите основной <br class="ds_hidden tb_hidden"/>ТВ пакет каналов</h2>
+					<div class="main_pakets" id="main_pakets">
+						<div class="filler">
+							<div class="wrap_paket">
+								<div class="paket">
+				
+								</div>
+							</div>
+							<div class="wrap_paket">
+								<div class="paket">
+				
+								</div>
+							</div>
+							<div class="wrap_paket">
+								<div class="paket">
+				
+								</div>
+							</div>
+							<div class="wrap_paket">
+								<div class="paket">
+				
+								</div>
+							</div>	
+						</div>					
+					<script id="template_main_pakets" type="text/x-handlebars-template">
+						{{#each pakets}}
+							<div class="wrap_paket slide-in" id="{{index}}">
+								<div class="paket">
+									<div class="side side-left">
+										<div class="name">
+											<span>{{name}}</span>
+											<span class="mb_hidden tb_hidden compare_active" data-index="{{index}}">Сравнить</span>
+										</div>
+										<div class="kanal"><!-- <em>{{countKanals}}</em> -->
+											<div class="circle" id="container{{index}}" data-count="{{countKanals}}">
+											</div>
+											<span>{{wordKanal}}</span>
+										</div>
+									</div>
+							<div class="wrap_kanals_description ds_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+									<div class="side side-right">
+										<p class="price">
+											<em>{{price}}</em> <span>₽/мес</span>
+										</p>
+										<p class="button">
+											<button id="{{index}}" data-html="Выбрать">Выбрать</button>
+										</p>
+										<p class="ds_hidden compare_active" data-index="{{index}}"><span>Сравнить</span></p>
+									</div>
+									
+								</div>
+							<div class="wrap_kanals_description tb_hidden mb_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+							</div>
+						{{/each}}
+					</script>	
+				</div>
+				<h2>Выберите дополнительные <br/ class="ds_hidden tb_hidden">ТВ-пакеты</h2>
+				<div id="dop_pakets" class="dop_pakets">
+					<div class="filler ds_hidden tb_hidden">
+						<div class="wrap_paket">
+							<div class="paket">
+			
+							</div>
+						</div>
+						<div class="wrap_paket">
+							<div class="paket">
+			
+							</div>
+						</div>
+						<div class="wrap_paket">
+							<div class="paket">
+			
+							</div>
+						</div>
+						<div class="wrap_paket">
+							<div class="paket">
+			
+							</div>
+						</div>	
+					</div>
+					<script id="template_dop_pakets" type="text/x-handlebars-template">
+					<div class="owl2 owl-carousel owl-theme ds_hidden">
+						{{#each pakets}}
+						<div class="item">
+							<div class="wrap_paket" id="{{index}}">
+								<div class="paket">
+									<div class="side side-left">
+										<div class="name">
+											<span>{{name}}</span>
+										</div>
+										<p class="kanal"><em>{{countKanals}}</em><span>{{wordKanal}}</span></p>
+									</div>
+								<div class="wrap_kanals_description ds_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+								<div class="side side-right">
+									<p class="price"><em>{{price}}</em> <span>₽/мес</span></p>
+									<p class="button"><button data-html="+ Добавить" id="{{index}}">+ Добавить</button></p>
+								</div>
+								</div>
+							<div class="wrap_kanals_description mb_hidden tb_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+							</div>
+						</div>
+						{{/each}}
+						</div>
+						<div class="dop tb_hidden mb_hidden">
+						{{#each pakets}}
+							<div class="wrap_paket" id="{{index}}">
+								<div class="paket">
+									<div class="side side-left">
+										<div class="name">
+											<span>{{name}}</span>
+										</div>
+										<p class="kanal"><em>{{countKanals}}</em><span>{{wordKanal}}</span></p>
+									</div>
+								<div class="wrap_kanals_description ds_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+								<div class="side side-right">
+									<p class="price"><em>{{price}}</em> <span>₽/мес</span></p>
+									<p class="button"><button data-html="+ Добавить" id="{{index}}">+ Добавить</button></p>
+								</div>
+								</div>
+							<div class="wrap_kanals_description mb_hidden tb_hidden">
+								<div class="kanals" id={{index}}>
+									{{#each kanals}}
+										{{#if active}}
+											<p data-type={{type}} class="active">{{name}}<span>{{img.length}}</span></p>
+										{{else}}
+											<p data-type={{type}}>{{name}}<span>{{img.length}}</span></p>
+										{{/if}}
+									{{/each}}
+								</div>
+								<div class="description" id="{{index}}">
+									{{#list kanals}}
+										<p class="{{type}}"><img src={{url}} alt=""><span>{{name}}</span></p>
+									{{/list}}
+								</div>
+							</div>
+							</div>
+						{{/each}}
+						</div>
+					</script>	
+				</div>
+				<p class="allPakets mb_hidden tb_hidden"><img src="img/DigitalTV/pokazat-vse.png" alt=""><span>Все пакеты</span></p>
+			</div><!--end container-->
+		</div><!--end wrap_pakets-->
+		<div class="wrap_where_look_at">
+			<h2>Где смотреть</h2>
+			<div class="wrapper_look_at">
+				<div class="where_look_at_desktop mb_hidden tb_hidden">
+
+					<div class="wrap_tabs">
+						<ul class="tabs">
+							<li class="tab">
+								<a href="#item1" class="active">ТВ-приставка Wifire</a>
+							</li>
+							<li class="tab">
+								<a href="#item2">Smart TV</a>
+							</li>
+							<li class="tab">
+								<a  href="#item3">Смартфоны и планшеты</a>
+							</li>
+							<li class="tab">
+								<a href="#item4">Персональный компьютер</a>
+							</li>
+							<div class="line"></div>
+						</ul>
+					</div>
+
+					<div class="wrap_items">
+						<div id="item1">
+							<div class="wrapper_items">
+								<div class="container">
+									<div class="tv_pristavka">
+										<div class="item">
+											<div>
+												<img src="img/DigitalTV/pristavka_big.png" class="pristavka" alt="">
+											</div>
+										</div>
+										<div class="item">
+											<h3>ТВ-приставка &laquo;WIFIRE&raquo;</h3>
+											<p>Приставка Wifire - это самое современное телевидение у Вас дома! Никаких сложных
+настроек и лишних проводов. На вашем экране в любое время доступны телеканалы,
+фильмы, передачи и интерактивные сервисы. </p>
+											<ul class="spisok">
+												<div>
+													<li class="internet">Работает везде, где есть Интернет</li>
+													<li class="full-hd">Поддерживает НD видео</li>
+												</div>
+												<div>
+													<li class="wifi">Подключение по WI-Fi</li>
+													<li class="programm">Программа передач на экране</li>
+												</div>
+												
+											</ul>
+											<div class="knopka">
+												<button><p>Купить</p><p><em>3900</em> ₽</p></button>
+												<button><p>Рассрочка на 36 мес</p><p><em>120</em> ₽/мес</p></button>
+											</div>
+											<div class="link">
+												<p>Технические характеристики</p>
+											</div>
+										</div>
+									</div>
+								</div><!--container-->
+							</div><!--end wrapper_items1-->
+						</div><!--end item1-->
+						<div class="item2" id="item2">
+							<div class="wrapper_items">
+								<div class="container">
+									<div class="smart_tv">
+										<div class="item">
+											<div>
+												<img src="img/DigitalTV/smart_tv_big.png" class="pristavka" alt="">
+											</div>
+										</div>
+										<div class="item">
+											<h3>Smart TV </h3>
+											<p>Теперь, чтобы смотреть беспроводное цифровое телевидение, обладателям телевизоров с поддержкой Smart TV не нужно покупать приставку, достаточно установить бесплатное для скачивания приложение Wifire TV в Smart TV, пройти простую регистрацию и выбрать подходящий пакет телеканалов.</p>
+											<p>
+												На большинстве телеканалов Вы сможете по своему усмотрению останавливать трансляцию, записывать понравившиеся телепередачи и осуществлять при желании их перемотку назад.
+											</p>
+											<h4>Приложения доступно на платформах</h4>
+											<ul class="spisok">
+												<li><a href="#"><img src="img/android_tv1.png" alt=""></a></li>
+												<li><a href="#"><img src="img/lg.png" alt=""></a></li>
+												<li><a href="#"><img src="img/sumsung.png" alt=""></a></li>
+											</ul>
+											<p>
+												Приложение Wifire TV может быть несовместимо с некоторыми моделями указанных телевизоров. Вы можете уточнить доступность приложения для Вашей модели телевизора в службе поддержки
+											</p>
+										</div>
+									</div>
+								</div><!--end container-->
+							</div><!--wrapper_items2-->
+						</div><!--end items2-->
+						<div class="item3" id="item3">
+							<div class="wrapper_items">
+								<div class="container">
+									<div class="wifire_tv">
+										<div class="item">
+											<div>
+												<img src="img/DigitalTV/smartfon.png" class="pristavka" alt="">
+											</div>
+										</div>
+										<div class="item">
+											<h3>Cмартфоны и планшеты</h3>
+											<p>Смотрите Wifire TV на своем планшете или смартфоне, скачав приложение в App Store или Google Play.</p>
+											<p>Простой и понятный интерфейс поможет быстро сориентироваться в возможностях приложения и легко пользоваться его основными функциями:</p>
+											<ul class="spisok">
+												<div>
+													<li class="see_kanals">Настраивайте , <br/>видимость каналов</li>
+													<li class="upravlenie">Управляйте эфиром: пауза, перемотка и просмотр &nbsp;любимых передач за последние 3&nbsp;дня&nbsp;</li>
+												</div>
+												<div>
+													<li class="add">Добавляйте каналы <br/> в Избранное </li>
+													<li class="social">Делитесь интересным с друзьями <br/> в социальных сетях</li>
+												</div>
+											</ul>
+											<h4>Приложения доступно на платформах</h4>
+											<ul class="application">
+												<li>
+													<a href="#"><img src="img/DigitalTV/ios.png" alt=""></a>
+												</li>
+												<li>
+													<a href="#"><img src="img/DigitalTV/google.png" alt=""></a>
+												</li>
+											</ul>
+											
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item4" id="item4">
+							<div class="wrapper_items">
+								<div class="container">
+									<div class="pc">
+										<div class="item">
+											<div>
+												<img src="img/DigitalTV/pc.png" class="pristavka" alt="">
+											</div>
+										</div>
+										<div class="item">
+											<h3>Сайт wifire.tv</h3>
+											<p>Доступен для браузеров <a href="#"> Chrome </a> и <a href="#"> Safari </a></p>
+											<p>Для просмотра видео через браузер необходимо установить плагин и расширение для браузера.</p>
+											<ul class="spisok">
+												<li class="chrome">
+													<p><a href="#">Плагин </a> для Chrome</p>
+													<p><a href="#">Расширения </a> для Chrome</p>
+												</li>
+												<li class="safari">
+													<p><a href="#">Плагин </a> для Safari</p>
+												</li>
+											</ul>
+											<p>
+												Установка плагина необходима для защиты лицензированного контента от пиратства. Это полностью безопасно для вашего компьютера. Плагин необходим для корректной работы видеоплеера. Без него невозможно воспроизводить видеопотоки, зашифрованные по требованию правообладателей контента.
+											</p>
+											<p>
+												Минимальные системные требования: OC: Windows 7 / MacOS 10.6; Процессор: Core i3 @ 2.00GHz (или аналог); Видеопамять: 512MB; ОЗУ: 4GB. Корректная работа на компьютерах, не отвечающих им, не гарантируется.
+											</p>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div><!--end wrap_items-->
+				</div><!--end where_look_at_desktop-->
+				<div class="wrap_where_look_at_mobile ds_hidden">
+					<div class="owl1 owl-carousel owl-theme">
+						<div class="item">
+							<div class="tv_pristavka_mobile">
+								<div class="container">
+									<h2>ТВ-приставка</h2>
+									<div class="content">
+										<div class="picture">
+											<img src="img/DigitalTV/pristavka_big.png" alt="">
+										</div>
+										<div class="descirption">
+											<p>Приставка Wifire - это самое современное телевидение у Вас дома! Никаких сложных
+	настроек и лишних проводов. На вашем экране в любое время доступны телеканалы,
+	фильмы, передачи и интерактивные сервисы. </p>
+											<ul class="spisok">
+												<li class="internet">Работает везде, <br/>где есть Интернет</li>
+												<li class="full-hd">Поддерживает <br/>НD видео</li>
+												<li class="wifi">Подключение <br/>по WI-Fi</li>
+												<li class="programm">Программа передач <br/>на экране</li>
+											</ul>
+											<div class="knopka">
+												<button><p>Купить</p><p><em>3900</em> ₽</p></button>
+												<button><p>Рассрочка на 36 мес</p><p><em>120</em> ₽/мес</p></button>
+											</div>
+											<div class="link">
+												<p>Технические характеристики</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="smart_tv_mobile">
+								<div class="container">
+									<h2>Smart TV</h2>
+									 <div class="content">
+										<div class="picture">
+											<img src="img/DigitalTV/smart_tv_big.png" alt="">
+										</div>
+										<div class="descirption">
+											<p>Теперь, чтобы смотреть беспроводное цифровое телевидение, обладателям телевизоров с поддержкой Smart TV не нужно покупать приставку, достаточно установить бесплатное для скачивания приложение Wifire TV в Smart TV, пройти простую регистрацию и выбрать подходящий пакет телеканалов.</p>
+											<p>
+												На большинстве телеканалов Вы сможете по своему усмотрению останавливать трансляцию, записывать понравившиеся телепередачи и осуществлять при желании их перемотку назад.
+											</p>
+											<h4>Приложения доступно на платформах</h4>
+											<ul class="spisok">
+												<li><a href="#"><img src="img/android_tv1.png" alt=""></a></li>
+												<li><a href="#"><img src="img/lg.png" alt=""></a></li>
+												<li><a href="#"><img src="img/sumsung.png" alt=""></a></li>
+											</ul>
+											<p>
+												Приложение Wifire TV может быть несовместимо с некоторыми моделями указанных телевизоров. Вы можете уточнить доступность приложения для Вашей модели телевизора в службе поддержки
+											</p>
+										</div>
+									 </div>
+								</div><!--end container-->
+							</div>
+						</div>
+						<div class="item">
+							<div class="wifire_tv_mobile">
+								<div class="container">
+									<h2>Смартфоны и планшеты</h2>
+								 <div class="content">
+									<div class="picture">
+										<img src="img/DigitalTV/smartfon.png" alt="">
+									</div>
+									<div class="descirption">
+										<p>Смотрите Wifire TV на своем планшете или смартфоне, скачав приложение в App Store или Google Play.</p>
+
+										<p>Простой и понятный интерфейс поможет быстро сориентироваться в возможностях приложения и легко пользоваться его основными функциями:</p>
+
+										<ul class="spisok">
+											<div>
+												<li class="see_kanals">Настраивайте , <br/>видимость каналов</li>
+												<li class="upravlenie">Управляйте эфиром: пауза, перемотка и просмотр<br/ class="ds_hidden"> &nbsp;любимых передач за последние 3&nbsp;дня&nbsp;</li>
+											</div>
+											<div>
+												<li class="add">Добавляйте каналы <br/> в Избранное </li>
+												<li class="social">Делитесь интересным с друзьями <br/> в социальных сетях</li>
+											</div>
+										</ul>
+										<h4>Приложения доступно на платформах</h4>
+										<ul class="application">
+											<li>
+												<a href="#"><img src="img/DigitalTV/ios.png" alt=""></a>
+											</li>
+											<li>
+												<a href="#"><img src="img/DigitalTV/google.png" alt=""></a>
+											</li>
+										</ul>
+										<br/>
+									</div>
+								 </div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="pc">
+								<div class="container">
+									<h2>Персональный компьютер</h2>
+								 <div class="content">
+									<div class="picture">
+										<img src="img/DigitalTV/pc.png" alt="">
+									</div>
+									<div class="descirption">
+										<p>Доступен для браузеров <a href="#"> Chrome </a> и <a href="#"> Safari </a></p>
+											<p>Для просмотра видео через браузер необходимо установить плагин и расширение для браузера.</p>
+											<ul class="spisok">
+												<li class="chrome">
+													<p><a href="#">Плагин </a> для Chrome</p>
+													<p><a href="#">Расширения </a> для Chrome</p>
+												</li>
+												<li class="safari">
+													<p><a href="#">Плагин </a> для Safari</p>
+												</li>
+											</ul>
+										</ul>
+										<p>
+											Установка плагина необходима для защиты лицензированного контента от пиратства. Это полностью безопасно для вашего компьютера. Плагин необходим для корректной работы видеоплеера. Без него невозможно воспроизводить видеопотоки, зашифрованные по требованию правообладателей контента.
+										</p>
+										<p>
+											Минимальные системные требования: OC: Windows 7 / MacOS 10.6; Процессор: Core i3 @ 2.00GHz (или аналог); Видеопамять: 512MB; ОЗУ: 4GB. Корректная работа на компьютерах, не отвечающих им, не гарантируется.
+										</p>
+										<br/>
+									</div>
+								 </div>
+								</div>
+							</div><!--end pc -->
+						</div>
+					</div><!--end wrap_where_look at_mobile-->
+				</div><!--end wrapper_look-->
+			</div><!--end wrap_where_look_at-->
+		<div class="send_order">
+			<div class="container">
+				<h2>Заявка на подключение</h2>
+				<div class="wrap_form">
+					<form action="#" id="form">
+					<input type="text" placeholder="Ваше имя">
+					<input type="text" id="phone" placeholder="Ваш телефон" required>
+					<button type="submit">
+						Отправить заявку
+					</button>
+					</form>
+				</div>		
+			</div>
+		</div><!--end send_order-->
+		<footer>
+			<div class="container">
+				<div class="wrap_items mb_hidden">
+					<div class="items">
+						<div class="item">
+							<h3>Цифровое ТВ</h3>
+							<a href="#">Об услуге</a>
+							<a href="#">Как смотреть</a>
+							<a href="#">Тарифы</a>
+						</div>
+						<div class="item">
+							<h3>Домашний Интернет</h3>
+							<a href="#">Интернет+ТВ</a>
+							<a href="#">Тарифы для частного сектора</a>
+							<a href="#">Тарифы</a>
+						</div>
+						<div class="item">
+							<h3>Мобильный Интернет</h3>
+							<a href="#">О технологии LTE</a>
+							<a href="#">Карта покрытия</a>
+							<a href="#">Тарифы</a>
+						</div>
+						<div class="item">
+							<h3>Дополнительные услуги</h3>
+							<a href="#">Антивирус</a>
+							<a href="#">Видеонаблюдение</a>
+							<a href="#">Умный дом</a>
+							<a href="#">Безопасный интернет</a>
+							<a href="#">Телефония</a>
+						</div>
+						<div class="item">
+							<h3>Абонентам</h3>
+							<a href="#">Личный кабинет</a>
+							<a href="#">Документы</a>
+							<a href="#">Способы оплаты</a>
+							<a href="#">Помощь Абонентам</a>
+							<a href="#">Интернет-магазин</a>
+						</div>
+						<div class="item">
+							<h3>О компании</h3>
+							<a href="#">Контактная информация</a>
+							<a href="#">Пресса о нас</a>
+							<a href="#">Офисы продаж и обслуживания</a>
+						</div>
+					</div>
+					<div class="items">
+						<div class="item app">
+							<h3>Приложение</h3>
+							<h3>Личный кабинет</h3>
+							<a href="#"><img src="img/App_Store.svg" alt=""></a>
+							<a href="#"><img src="img/Google_Play.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_mobile ds_hidden tb_hidden">
+					<ul class="footer_menu">
+						<li class="has-children">
+							<a href="#">
+								 Цифровое ТВ
+							</a>
+							<ul>
+								<li><a href="#">Об услуге</a></li>
+								<li><a href="#">Как смотреть</a></li>
+								<li><a href="#">Тарифы</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">
+								Домашний Интернет
+							</a>
+							<ul>
+								<li><a href="#">Интернет+ТВ</a></li>
+								<li><a href="#">Тарифы для частного сектора</a></li>
+								<li><a href="#">Тарифы</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">
+								Мобильный интернет
+							</a>
+							<ul>
+								<li><a href="#">О технологии LTE</a></li>
+								<li><a href="#">Карта покрытия</a></li>
+								<li><a href="#">Тарифы</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">
+								Дополнительные услуги
+							</a>
+							<ul>
+								<li><a href="#">Антивирус</a></li>
+								<li><a href="#">Видеонаблюдение</a></li>
+								<li><a href="#">Умный дом</a></li>
+								<li><a href="#">Безопасный интернет</a></li>
+								<li><a href="#">Телефония</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">
+								Абонентам
+							</a>
+							<ul>
+								<li><a href="#">Личный кабинет</a></li>
+								<li><a href="#">Документы</a></li>
+								<li><a href="#">Способы оплаты</a></li>
+								<li><a href="#">Помощь Абонентам</a></li>
+								<li><a href="#">Интернет-магазин</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">
+								О компании
+							</a>
+							<ul>
+								<li><a href="#">Контактная информация</a></li>
+								<li><a href="#">Пресса о нас</a></li>
+								<li><a href="#">Способы оплаты</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="social">
+					<div>
+						<img src="img/16.svg" alt="">
+						<div class="in_social">
+							<p>Wifire &copy; 2017</p>
+							<p>Powered by NETBYNET</p>
+						</div>
+					</div>
+					<div>
+						<span>
+							<a href="#" class="premia"><img src="img/logo_premia.svg" alt="">Лауреат премии «Права потребителей <br/>и качество обслуживания»</a>
+						</span>
+						<span>
+							<a href="#"><img src="img/fb.svg" alt=""></a>
+						    <a href="#"><img src="img/vk.svg" alt=""></a>
+						    <a href="#"><img src="img/ok.svg" alt=""></a>
+						</span>
+					</div>
+					<div class="ds_hidden tb_hidden">
+						<h3>Приложение</h3>
+						<h3>Личный кабинет</h3>
+						<a href="#"><img src="img/App_Store.svg" alt=""></a>
+						<a href="#"><img src="img/Google_Play.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div><!--end wrap-->
+</div>
+	<!-- <div class="overlay">
+		<div class="popUp">
+				<img src="img/popUp/krest.png" class="krest" alt="">
+				<header>
+					<img src="img/popUp/180.svg" alt="">
+					<p>
+						<span>Wifire TV 70+</span>
+						<span>70 каналов<em>(8 HD)</em></span>
+					</p>
+				</header>
+				<section>
+					Социальный пакет, в который вошли </br>федеральные, познавательные, детские,</br> спортивные, развлекательные каналы.
+				</section>
+				<footer>
+					<ul>
+						<li>
+							<img src="img/popUp/adult.png" alt="">
+							<p>Взрослые<span>28</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/antena.png" alt="">
+							<p>Эфирные<span>28</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/usefull.png" alt="">
+							<p>Познавательные<span>7</span></p>		this.init();
+
+						</li>
+						<li>
+							<img src="img/popUp/world.png" alt="">
+							<p>Развлекательный<span>7</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/online.png" alt="">
+							<p>Детям<span>2</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/telemagazin.png" alt="">
+							<p>Детям<span>2</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/sport.png" alt="">
+							<p>Спорт<span>1</span></p>
+						</li>
+						<li>
+							<img src="img/popUp/aducation.png" alt="">
+							<p>Спорт<span>1</span></p>
+						</li>
+					</ul>
+				</footer>
+			</div>
+	</div> -->
+<div class="compare"> <!-- Scrollable for mob-->
+			<div class="wrap_compare">
+				<div class="container">
+					<div class="head_compare">
+						<div class="outer menu_level">
+							<p>Выберите TV-пакеты <br class="mb_hidden tb_hidden" />
+							для сравнения</p>
+							<div class="inner">
+								<div class="item" data-index="0"><span class="mb_hidden tb_hidden">Wifire TV </span>70+</div>
+								<div class="item" data-index="1"><span class="mb_hidden tb_hidden">Wifire TV </span>130+</div>
+								<div class="item" data-index="2"><span class="mb_hidden tb_hidden">Wifire TV </span>150+</div>
+								<div class="item" data-index="3"><span class="mb_hidden tb_hidden">Wifire TV </span>180+</div>
+							</div>
+							<div class="button_compare">
+								<button>Cравнить</button>
+								<img src="img/DigitalTV/close1.png" alt="">
+							</div>
+						</div>
+					</div><!--end head_compare-->
+					<div class="close_fixed ds_hidden">
+						<img src="img/DigitalTV/close1.png" alt="">
+					</div>
+					<div class="filters menu_level">
+						<div class="wrap_filters tb_hidden mb_hidden">
+							<div class="item" data-index="0">Все</div>
+							<div class="item" data-index="3">Эфирные</div>
+							<div class="item" data-index="4">Кино</div>
+							<div class="item" data-index="5">Детям</div>
+							<div class="item" data-index="6">Спорт</div>
+							<div class="item" data-index="7">Познавательные</div>
+							<div class="item" data-index="8">Развлекательные</div>
+							<div class="item" data-index="9">Бизнес, Новости</div>
+							<div class="item" data-index="10">Музыка</div>
+							<div class="item" data-index="11">Мир</div>
+							<div class="item" data-index="12">Для взрослых</div>
+							<div class="item" data-index="13">HD каналы</div>
+						</div>
+						<select class="ds_hidden" name="select" id="" size="1">
+							<option value="0" data-index="0">Все</option>
+							<option value="3" data-index="3">Эфирные</option>
+							<option value="4" data-index="4">Кино</option>
+							<option value="5" data-index="5">Детям</option>
+							<option value="6" data-index="6">Спорт</option>
+							<option value="7" data-index="7">Познавательные</option>
+							<option value="8" data-index="8">Развлекательные</option>
+							<option value="9" data-index="9">Бизнес, Новости</option>
+							<option value="10" data-index="10">Музыка</option>
+							<option value="11" data-index="11">Мир</option>
+							<option value="12" data-index="12">Для взрослых</option>
+							<option value="13" data-index="13">НD каналы</option>
+						</select>
+						
+						<div class="checkboxies menu_level">
+							<div class="checkbox">
+								<div class="HD">
+									<p>Только HD</p>
+									<label class="toggle3" name="HD">
+										<input type="checkbox" class="item" name="HD">
+										<span>
+											<span></span>
+											<span></span>
+										</span>
+									</label>
+								</div>
+
+								<div class="differences mb_hidden ds_hidden tb_hidden">
+									<p>Только различия</p>
+									<label class="toggle3" name="differences">
+										<input type="checkbox" class="item" name="differences">
+										<span>
+											<span></span>
+											<span></span>
+										</span>
+									</label>
+								</div>
+							</div><!--end checkbox-->
+						</div>
+
+					</div><!--end filters-->
+
+					<div class="wrap_content_head menu_level">
+						<div class="content_head">
+							<div class="kanals">
+								<div class="header">
+									Каналы
+								</div>
+							</div><!--end kanals-->
+							<div class="wrap_item">
+								<div class="TV_70 item">
+									<div class="header">
+										<span class="mb_hidden tb_hidden">Wifire TV</span> 70+
+									</div>
+								</div>
+								<div class="TV_130 item">
+									<div class="header">
+										<span class="mb_hidden tb_hidden">Wifire TV</span> 130+
+									</div>
+								</div>
+								<div class="TV_150 item">
+									<div class="header">
+										<span class="mb_hidden tb_hidden">Wifire TV</span> 150+
+									</div>
+								</div>
+								<div class="TV_180 item">
+									<div class="header">
+										<span class="mb_hidden tb_hidden">Wifire TV</span> 180+
+									</div>
+								</div>
+							</div>
+						</div><!--end content_head-->
+					</div><!--end wrap_content_head-->
+					
+					<div class="wrapper">
+						<div class="wrap_content menu_level">
+							<div class="wrap_data_kanals">
+
+								<div class="i">
+									<img src="img/DigitalTV/kanals/perviy.png" alt="">
+									<span class="mb_hidden tb_hidden">Первый канал</span>
+								</div>
+
+							</div><!--wrap_data_kanals-->
+							<div class="col_0 col item" data-index="0">
+
+							</div>
+							<div class="col_1 col item" data-index="1">
+
+							</div>
+							<div class="col_2 col item" data-index="2">
+
+							</div>
+							<div class="col_3 col item" data-index="3">
+
+							</div>
+						</div><!--end wrap_content-->
+						<div class="mobile_bottom ds_hidden tb_hidden"></div>
+					</div><!--end wrapper-->
+				</div><!--end container-->
+			</div><!--end wrap_compare-->
+		</div>
+</body>
+<script src="js/digital_tv.min.js"></script>
+</html>
+

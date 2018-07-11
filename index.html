@@ -16,17 +16,41 @@
 	<link rel="stylesheet" href="libs/linea/styles.css"/>
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 </head>
+<style>
+	.grid-sizer,.grid-item { 
+		width: calc(100%/4);
+		border: solid 1px black;
+	}
+	@media all and (min-width: 768px) and (max-width: 1024px){
+		.grid-sizer,.grid-item{
+			width: calc(100%/3)
+		}
+	}
+	@media all and (max-width: 768px){
+		.grid-ziser,.grid-item{
+			width: calc(100%/2)
+		}
+	}
+	.grid-item img {
+		display: block;
+		width: 100%;
+		margin: 1px;
+	}
+	.grid-item a:hover {
+		cursor: pointer;
+	}
+</style>
 <html>
 <body>
 <div class="loader">
-		<div class="loader_inner">
-		</div>
+	<div class="loader_inner">
+	</div>
 </div>
 	<header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg2_mini.jpg" data-z-index="1">
 	<div class="container">
 		<div class="row">
 		<div class="col-md-12">
-					<div class="logo">
+		<div class="logo">
 				<svg
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 183.23021 128.2128"
@@ -185,46 +209,24 @@
 <div class="section_content">
 	<div class="container">
 		<div class="row">
-	<div id="filter controls">	
-			<ul>
-				<li class="active filter" data-filter="all">Все работы</li>
-				<li class="filter" data-filter=".category-1">Интернет магазины</li>
-				<li class="filter" data-filter=".category-2">Landing Page</li>
-				<li class="filter" data-filter=".category-3">Адаптивные сайты</li>
-				<li class="filter" data-filter=".category-4">Ajax</li>
-				<li class="filter" data-filter=".category-5">Плагины</li>
-			</ul>
-	</div><!--end filter-->		
-	<div id="portfolio_item">
-		<script id="template" type="text/x-handlebars-template">
-			<div class="mix col-md-3 portfolio_item category-2 category-3" id="imp">
-				{{#each project}}
-					<img src="map.png" alt="">
-				<div class="protfolio_cont">
-					<h3>Portfolio</h3>
-					<p>Landing page</p>
-					<h3>Использованные технологии</h3>
+			<div id="filter controls">	
 					<ul>
-						{{#each technology}}
-							<li>{{name}}</li>
-						{{/each}}
+						<li class="active filter" data-filter="all">Все работы</li>
+						<li class="filter" data-filter=".category-1">Интернет магазины</li>
+						<li class="filter" data-filter=".category-2">Landing Page</li>
+						<li class="filter" data-filter=".category-3">Адаптивные сайты</li>
+						<li class="filter" data-filter=".category-4">Ajax</li>
+						<li class="filter" data-filter=".category-5">Плагины</li>
 					</ul>
-					<a href="#" class="popa">Посмотреть</a>
+			</div><!--end filter-->		
+			<div id="portfolio_item">
+				<div class="grid">
+					<div class="grid-sizer"></div>
 				</div>
-				<div class="hidden">
-					<div class="item_descrip" id="">
-					<h3>Портфолио Landing page</h3>
-					<p>{{description}}</p>
-						<a href="clever_home/index.html" target="_blanke"><img src="img/support.png" alt="alt"></a>
-					</div>
-				</div>
-				{{/each}}
-			</div>
-
-		</script>
-		</div><!--end portfolio_item-->	
+			</div>	
+		</div>
 	</div>
-</div>			
+</div>
 </section>
 <section id="contact" class="s_contact bg_light">
 <h2>Контакты</h2>
@@ -289,6 +291,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="libs/Jquery/jquery-2.1.3.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/mixtup/mixitup.min.js"></script>
